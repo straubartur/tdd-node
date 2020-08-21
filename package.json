@@ -1,0 +1,28 @@
+{
+  "name": "seubarriga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/server.js",
+    "secure-mode": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^23.6.0",
+    "supertest": "3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "0.1.6",
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "pg": "7.7.1"
+  }
+}
